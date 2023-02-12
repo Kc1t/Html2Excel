@@ -1,9 +1,9 @@
-function tableToExcel (){
+function ConvertExc (){
     
-    var table2excel = new Table2Excel();
+    var table2excel = new ConvertExc();
       table2excel.export(document.querySelectorAll("table.table"));
 
-    }
+}
  
 function makeEditable(header){
 
