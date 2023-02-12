@@ -1,10 +1,10 @@
-function ConvertExc (){
-    
-    var table2excel = new ConvertExc();
+function convertExcel (){
+
+    var table2excel = new Table2Excel();
       table2excel.export(document.querySelectorAll("table.table"));
 
 }
- 
+
 function makeEditable(header){
 
     //Pega o texto da header que tiver a funcção
