@@ -119,7 +119,7 @@
 	 * results to `<table data-excel-name="Another table">...</table>`.
 	 */
 	var defaultOptions = {
-	  defaultFileName: 'file',
+	  defaultFileName: 'Planilha',
 	  tableNameDataAttribute: 'excel-name',
 
 	  /**
