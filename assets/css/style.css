@@ -49,6 +49,15 @@ button:hover{
     transition: 2ms ease;
 }
 
+input{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    max-width: 6vw;
+    border: none;
+}
+
 @media (max-width: 767px) {
     .table {
       display: block;
